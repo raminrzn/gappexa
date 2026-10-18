@@ -1,0 +1,21 @@
+Package: gappexa
+Title: GAP Index and Staging System for IPF - ModelsCloud Service
+Version: 0.1.0
+Authors@R: c(
+    person("Ramin", "Rezaeianzadeh", email = "raminrzn@student.ubc.ca",
+           role = c("aut", "cre")),
+    person("Brett", "Ley", role = "ctb",
+           comment = "First author of the GAP index"))
+Description: Implements the GAP (gender, age, physiology) point index and
+    staging system for idiopathic pulmonary fibrosis (Ley et al., Annals of
+    Internal Medicine 2012 <doi:10.7326/0003-4819-156-10-201205150-00004>):
+    points, stage, and the original cohort's stage-level 1-, 2- and 3-year
+    mortality. Not the continuous GAP calculator, ILD-GAP or later revisions.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: jsonlite, utils
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+URL: https://github.com/raminrzn/gappexa
